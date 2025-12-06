@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: DocumentExecutorVerificationAi
+
+ai:
+  verification:
+    document:
+      document-ai-url: "dsa"
+      deposit: "das"
+      model: "chat-gpt-4.0"
+      priority:
+        - low
+        - normal
+        - high
+      temperature: 2.0
+      stream: false
